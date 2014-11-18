@@ -1,0 +1,61 @@
+/* body */
+html { font-family: Arial, Helvetica, sans-serif; font-size: 13px; }
+.title { font-size: 24px; font-weight: normal; margin: 20px 0; padding: 0; text-align: center; }
+.center { margin: 0 auto; overflow: hidden; position: relative; width: 980px; }
+body {height:100%; margin:0; padding:0;}
+ul { margin: 0; padding: 5px; }
+li { list-style: none; padding: 5px 0; }
+/* form */
+#form { background-color: #fff; border-radius: 5px; margin: 20px auto 0; padding: 20px; width: 400px; }
+#form h2 { font-size: 20px; margin: 0 0 10px; }
+#form label { display: block; margin-top: 10px; margin-bottom: 5px;}
+#form label { width: 100%; font-weight: bold}
+#form input.text, #form textarea { border: 1px solid #acacac; padding: 5px 9px; width: 320px; }
+#form select.select { border: 1px solid #acacac; padding: 5px 9px; width: 340px; }
+#form input.submit { margin-top: 10px; padding: 5px 0; width: 60px; }
+
+/*Checkbox list*/
+#checkbox { height: 130px; overflow: auto; width: 370px; border: 1px solid #acacac; }
+
+/* table */
+#table {  border-collapse: collapse; border-spacing: 0; color: #333; width: 100%; }
+#table a:link, #table a:visited { color: #11228d; text-decoration: underline; }
+#table a:hover { text-decoration: underline;}
+#table a.sort:link, #table a.sort:visited { color: #fff; text-decoration: underline; }
+#table a.sort:hover { text-decoration: underline; }
+#table th, #table td { border: 1px solid #cbcbcb; padding: 8px; text-align: left; }
+#table th { color: #fff; }
+#table th.first { color: #fff; width:30px}
+#table th.last { color: #fff; width:100px}
+#table th.long-text { color: #fff; width:250px}
+#table thead tr { background-color: #494949; }
+#table tr.odd { background-color: #f4f2f2;}
+#table tr.wrong { background-color: #fcf8e3;}
+#table tr.done { background-color: #dff0d8; }
+
+#main .nav-menu { font-size: 15px; position: absolute; right: 2px; top: 25px; }
+#main .nav-menu a { color: #11228d; }
+#main .nav-menu a:hover {color: #112eed; text-decoration: underline }
+
+/* list */
+#main .list { margin-bottom: 20px; }
+#main .list h2, #main .list ul, #main .list li { margin: 0; padding: 0; }
+#main .list .title { text-align: left; font-size: 18px; }
+#main .list ul { list-style-position:inside; list-style-type: none; padding: 0 25px; }
+#main .list li { line-height: 20px; }
+
+#main span.error{color: #ff0000;}
+
+#overlay {position: absolute; left: 0px; top: 0px; visibility: hidden; width:100%; height:100%; text-align:center; z-index: 100;}
+#overlay div.content-dialog {background-color: #fff; border:1px solid #000; width:400px; height:250px; margin: 180px auto; text-align:center;}
+#overlay div.toolbar-dialog{background-color: #494949; width:400px; height:30px; color: #fff;}
+#overlay div.toolbar-dialog p {width:auto; font-weight: bold; float: left; margin: 5px;}
+#overlay div.toolbar-dialog a {line-height: 25px; padding-right: 5px; float: right; color: #fff; text-decoration: none;}
+#overlay div form {background-color: #FFFFFF; border-radius: 5px; padding: 5px 20px; text-align: left; width: 350px;}
+#overlay div form label, #login input { display: block; margin-top: 10px; margin-bottom: 5px;}
+#overlay div form label { width: 100%; font-weight: bold}
+#overlay div form input.text { border: 1px solid #acacac; padding: 5px 9px; width: 320px; }
+#overlay div form select.select { border: 1px solid #acacac; padding: 5px 9px; width: 340px; }
+#overlay div form input.submit { margin-top: 10px; padding: 5px 0; width: 60px; }
+#overlay div.message { margin-top: 10px; padding: 5px 0;}
+#overlay div span.error { color: #ff0000; }
